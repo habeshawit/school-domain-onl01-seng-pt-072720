@@ -1,15 +1,13 @@
 class School
   
-<<<<<<< HEAD
   def initialize(name)
     @name = name
     @roster = {}
-=======
+
   ROSTER = []
   def initialize(name)
     @name = name
     @roster = roster
->>>>>>> b8d5fde7bf09c6bbbcf7133f2b086e13af8fe374
   end
   
   def name
@@ -17,7 +15,6 @@ class School
   end
   
   def roster
-<<<<<<< HEAD
     @roster
   end
   
@@ -40,9 +37,6 @@ class School
   
   def sort
     roster.each_value { |name| name.sort! }
-=======
-    ROSTER << roster
->>>>>>> b8d5fde7bf09c6bbbcf7133f2b086e13af8fe374
   end
   
 end
