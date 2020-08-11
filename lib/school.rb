@@ -16,6 +16,9 @@ class School
       roster[grade] = []
       roster[grade] << name
     end
+    
+    #roster[grade] ||= []   --> also works.If roster[grade] is an empty array, then evaluate next statement. else create empty array
+    #roster[grade] << student_name
   end
   
   def grade(grade)
